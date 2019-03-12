@@ -5,7 +5,7 @@ body {
    flex: 1 1 auto;
 }  
 .bg { 
-    background: url("../images/24660083432_32600e0324_b.jpg") no-repeat center center fixed;
+    background: url("../images/background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -82,4 +82,13 @@ body {
 
 .downloads h5{
 	color:#F97300 ;
+}
+
+.container .card {
+    width: 16rem;
+}
+
+.container img {
+    height: 256px;
+    width: 256px;
 }
