@@ -1,0 +1,85 @@
+body {
+    min-height: 100vh;
+}
+.flex-fill {
+   flex: 1 1 auto;
+}  
+.bg { 
+    background: url("../images/24660083432_32600e0324_b.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-dark {
+    background-color: transparent !important;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.card {
+    background-color: transparent;
+    color: white;
+    border: 0px;
+}
+
+.nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.fixedImage {
+    position: relative;
+    margin: auto;
+    padding: 2em;
+}
+
+.home {
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+
+}
+.home h1{
+	color:#F97300 ;
+}
+.home p{
+	color:#666;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.home button{
+	border:1px  solid #F97300;
+	background:#F97300;
+	color:#fff;
+}
+
+.game {
+    top: 20%;
+    margin: auto;
+    padding: 2em;
+
+}
+.game h1{
+	color:#F97300 ;
+}
+.game p{
+	color: white;
+	font-size: 20px;
+	width: 80%;
+	line-height: 1.5;
+}
+
+.downloads ul {
+    color: white;
+}
+
+.downloads a {
+    color: red;
+}
+
+.downloads h5{
+	color:#F97300 ;
+}
