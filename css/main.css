@@ -42,7 +42,7 @@ body {
 
 }
 .home h1{
-	color:#F97300 ;
+	color: red;
 }
 .home p{
 	color:#666;
@@ -51,8 +51,8 @@ body {
 	line-height: 1.5;
 }
 .home button{
-	border:1px  solid #F97300;
-	background:#F97300;
+	border:1px  solid red;
+	background: red;
 	color:#fff;
 }
 
@@ -63,7 +63,7 @@ body {
 
 }
 .game h1{
-	color:#F97300 ;
+	color: red ;
 }
 .game p{
 	color: white;
@@ -81,7 +81,7 @@ body {
 }
 
 .downloads h5{
-	color:#F97300 ;
+	color: red ;
 }
 
 .container .card {
