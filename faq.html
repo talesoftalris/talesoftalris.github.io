@@ -1,5 +1,54 @@
-<div class="description">
-        <h1>
-            FAQs
-        </h1>
+
+        <h1>FAQ</h1>
+	<div class="cont">
+		
+		<div class="acc">
+			<h3>Question 1: What is Tales of Talris?</h3>
+			<div class="content">
+				<div class="content-inner">
+					<p>answer.</p>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="acc">
+			<h3>Question 2: What made us start this project?</h3>
+			<div class="content">
+				<div class="content-inner">
+					<p>answer.</p>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="acc">
+			<h3>Question 3: Who is talris?</h3>
+			<div class="content">
+				<div class="content-inner">
+					<p>answer.</p>
+					
+				</div>
+			</div>
+		</div>
+
+				<div class="acc">
+			<h3>Question 4: Who is hayden?</h3>
+			<div class="content">
+				<div class="content-inner">
+					<p>answer.</p>
+				</div>
+			</div>
+		</div>
+	</div>
     </div>
+    <script>
+    $(document).ready(function(){
+            $('.acc h3').click(function(){
+                $(this).next('.content').slideToggle();
+                $(this).parent().toggleClass('active');
+                $(this).parent().siblings().children('.content').slideUp();
+                $(this).parent().siblings().removeClass('active');
+            });
+        });
+        </script>
