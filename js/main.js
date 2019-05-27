@@ -18,3 +18,19 @@ $(document).ready(function(){
     $('#mainContainer').load('home.html');  
 })
 
+$("#navbarcontent a")
+  .each(function(i) {
+    $("#makeasound")
+    .clone()
+    .attr("id", "makeasound-" + i)
+    .appendTo($(this).parent()); 
+    $(this).data("beepId", i);
+  })
+  .mouseenter(function() {
+    $("#makeasound-" + $(this).data("beepId"))[0].play();
+  });
+
+  $("#branding")
+    .mouseenter(function() {
+        $("#makeasound")[0].play();
+    });
