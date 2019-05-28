@@ -83,7 +83,7 @@ body {
 .downloads h5{
 	color: red ;
 }
-.news h1 {
+.News h1 {
     color: red;
 }
 
@@ -169,7 +169,7 @@ body {
 
 
 
-.news {
+.News {
     max-width: 60%;
     margin: 0 auto;
     padding: 70px 0 20px;
