@@ -1,10 +1,19 @@
-<div class="news"> 
-        <h1>
-           Keep in touch for upcoming breaking news from our side  
-            <p>
-        
-        
-    </p>
-           
-        </h1>
+<div class="news">
+        <div class="accs">
+    <h3>Click here to check the latest news. </h3>
+    <div class="contents">
+        <div class="contents-inner">
+            <p>No new news yet, Thanks for visiting our website</p>
+        </div>
     </div>
+</div>
+<script>
+    $(document).ready(function(){
+            $('.accs h3').click(function(){
+                $(this).next('.contents').slideToggle();
+                $(this).parent().toggleClass('active');
+                $(this).parent().siblings().children('.contents').slideUp();
+                $(this).parent().siblings().removeClass('active');
+            });
+        });
+        </script>

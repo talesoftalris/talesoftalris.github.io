@@ -83,6 +83,9 @@ body {
 .downloads h5{
 	color: red ;
 }
+.news h1 {
+    color: red;
+}
 
 
 .container .card {
@@ -155,6 +158,66 @@ body {
     border-bottom: 1px solid #fff;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600,700|Roboto');
+
+body {
+	margin: 0;
+	background-image: url(https://images.pexels.com/photos/1020317/pexels-photo-1020317.jpeg?cs=srgb&dl=abstract-art-background-1020317.jpg&fm=jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.news {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 70px 0 20px;
+    width: 100%;
+}
+
+.accs h3 {
+    font-size: 25px;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.accs h3:after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.accs.active h3:after {
+	content: '-';
+}
+
+.contents {
+    background-color: #fff;
+    display: none;
+}
+
+.contents-inner {
+    padding: 15px;
+}
+
+.contents * {
+    margin-top: 0;
+    line-height: 1.5;
+}
+
+.accs {
+    border-bottom: 1px solid #fff;
+}
 
 
 
